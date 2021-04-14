@@ -73,6 +73,10 @@ body {
   color: var(--a_title_tc);
 }
 
+.current {
+  color: var(--a_title_tc);
+}
+
 .list {
   list-style: none;
 }
@@ -101,6 +105,7 @@ body {
 
 .btn {
   background-color: var(--btn_bg);
+  font-family: inherit;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -111,8 +116,15 @@ body {
   color: var(--white_title_tc);
 }
 
+.btn:hover,
+.btn:focus {
+  background-color: var(--white_bg);
+  color: var(--a_title_tc);
+}
+
 .btn1 {
   background-color: var(--light_bg);
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
